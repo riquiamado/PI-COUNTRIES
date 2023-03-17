@@ -41,7 +41,9 @@ export function getCountriesByName(name) {
 export function getActivities() {
   return async function (dispatch) {
     try {
-      const info = await axios.get(`${URL}/activities`);
+      const info = await axios.get(
+        `pi-countries-production-4c0e.up.railway.app/activities`,
+      );
       return dispatch({ type: GET_ACTIVITIES, payload: info.data });
     } catch (error) {
       console.log(error);
