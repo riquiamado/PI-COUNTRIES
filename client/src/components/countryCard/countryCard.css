@@ -1,0 +1,44 @@
+.card-count{
+ width: 200px;
+ border-radius: 10px;
+ border: 1px solid black;
+ height: 300px;
+ background: lightgray;
+ opacity: 0.9;
+ color: black;
+}
+
+.card-count img{
+  width: 100%;
+  height: 120px;
+  padding: 0;
+  margin: 0 auto;
+  border-radius: 10px 10px 0  0;
+  
+}
+
+.card-count h3{
+    margin: 0;
+    padding: 0;
+}
+
+.card-count:hover {
+  border: 2px solid rgb(156, 36, 15);
+ 
+}
+
+/* .card-count h3:hover{
+  color: tomato;
+}
+
+.card-count label:hover{
+  color: tomato;
+} */
+
+.colors{
+  color: black;
+}
+
+.colors:hover{
+  color: tomato;
+}

@@ -1,0 +1,178 @@
+.body{
+    background-image: url("C:\Users\carlo\OneDrive\Escritorio\PI-Countries-main\client\src\assets\cyclist-man-racing-bike-on-mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: fill;
+    min-height: 625px;
+}
+.formAll form {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.formAll{
+    color: #000;
+}
+
+.formAll:hover{
+    color: brown;
+}
+
+.formu{
+    /* border:thin solid #000; */
+    margin:5px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    /* border-radius: 1rem; */
+    /* background-color: rgb(14, 15, 14); */
+    opacity: .7;
+    color:black;
+}
+
+
+
+.inputsForm {
+    
+    border: 3px solid rgba(64, 50, 187, 0.349);
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    font-family: sans-serif;
+    color: #000;
+    font-weight:  bold;
+    cursor: pointer;
+}
+
+.inputsForm:hover{
+    border: 3px solid brown;
+    box-shadow: 0 0 10px brown;
+    
+}
+
+.inputsForm input{
+    font-size: medium;
+    font-weight: bold;
+}
+
+/* .body button{
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    background-color: cornflowerblue;
+    background-size: 2rem;
+} */
+
+/* .body .actividad{
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    background-color: cornflowerblue;
+    background-size: 2rem;
+} */
+
+.actividad{
+    padding: 5px 40px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: #ccc;
+    color: tomato;
+    border: 3px solid rgba(64, 50, 187, 0.349);
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+
+.actividad:hover{
+    cursor: pointer;
+    border-color: brown;
+    color: brown;
+}
+
+
+.paisAgregado{
+    width: 80%;
+    display: flex;
+    margin:0 5px;
+    justify-content: center;
+    color: #ccc;
+    gap: 10px;
+    /* border: thin solid; */
+}
+
+.paisAgregado p{
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
+    background-size: 2rem;
+}
+
+.select {
+    background-color: #ccc;
+    border: 3px solid rgba(64, 50, 187, 0.349);
+    padding: 5px 10px ;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 10px;
+    border-radius: 10px ;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.select:hover{
+    color: brown;
+}
+
+option{
+    background-color: #ccc;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.buttonBack{
+    padding: 5px 40px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #ccc;
+    color: tomato;
+    border: 3px solid rgba(64, 50, 187, 0.349);
+    border-radius: 10px;
+    font-size: 1.3rem;
+
+}
+
+.buttonBack:hover{
+    cursor: pointer;
+    border-color: brown;
+    color: brown;
+}
+
+.agregados p{
+    background-color: #ccc;
+    color: #000;
+    font-weight: bold;
+
+}
+
+.agregados  button{
+    border: 2px solid rgba(64, 50, 187, 0.349);
+    border-radius: 5px;
+    background-color: #ccc;
+    color: tomato;
+    padding: 5px;
+}
+
+.agregados button:hover{
+    cursor: pointer;
+    border-color: brown;
+    color: brown;
+}
+
+.errors {
+    color: red;
+}

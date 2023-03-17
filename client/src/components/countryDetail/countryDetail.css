@@ -1,0 +1,123 @@
+/* .todo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+} */
+
+.todo{
+    background-image: url("C:\Users\carlo\OneDrive\Escritorio\PI-Countries-main\client\src\assets\WhatsApp Image 2022-11-06 at 14.10.48.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    background-position: center;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 600px;
+   
+}
+
+.todo img{
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.todo label{
+    margin: 0;
+    padding: 0;
+    font-weight: 500px;
+}
+
+.todo h3{
+    margin: 0;
+    padding: 0;
+}
+/* .todo button {
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    background-color: lightgray;
+    background-size: 2rem;
+    margin-bottom: 20px;
+    width: 120px;
+    padding: 5px;
+} */
+
+.containerCard{
+
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: 2px solid black;
+    width: 800px;
+    margin-left: 20%;
+    min-height: 500px;
+    max-height: 700px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 15px;
+  
+}
+
+.containerCard:hover{
+    border:3px solid brown;
+    opacity: 0.9;
+}
+
+
+.detalles{
+
+    border:thin solid;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: lightgray;
+    width: 250px;
+    box-sizing: border-box;
+    opacity: 0.8;
+    
+}
+
+.detalles:hover{
+    opacity: 1;
+    color: brown;
+}
+
+.actividades{
+    border:thin solid;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: lightgray;
+    width: 250px;
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+
+.actividades:hover{
+    opacity: 1;
+    color: brown;
+}
+
+.actividades h3{
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    padding: 5px 40px;
+    margin: 10px;
+   font-family: sans-serif;
+   font-size: 1.2rem;
+   font-weight: bold;
+   color: tomato;
+   cursor: pointer;
+   background-color: #ccc;
+   border: 3px solid rgba(64, 50, 187, 0.349);
+   border-radius: 10px;
+}
+
+.btn:hover{
+    border: 3px solid brown;
+    color: brown;
+    background-color: white;
+}
