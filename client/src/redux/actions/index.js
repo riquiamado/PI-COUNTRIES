@@ -15,8 +15,8 @@ import {
   DELETE_ACTIVITY,
 } from "./componentes";
 
-const URL = `pi-countries-production-4c0e.up.railway.app`;
-//  const URL= `http://localhost:3001`
+//  const URL = `pi-countries-production-4c0e.up.railway.app`
+const URL = `http://localhost:3001`;
 export function getAllCountries() {
   return function (dispatch) {
     axios
@@ -41,9 +41,7 @@ export function getCountriesByName(name) {
 export function getActivities() {
   return async function (dispatch) {
     try {
-      const info = await axios.get(
-        `pi-countries-production-4c0e.up.railway.app/activities`,
-      );
+      const info = await axios.get(`${URL}/activities`);
       return dispatch({ type: GET_ACTIVITIES, payload: info.data });
     } catch (error) {
       console.log(error);
@@ -114,7 +112,7 @@ export function deleteActivity(id) {
 export function addActivities(payload) {
   return async function (dispatch) {
     try {
-      let info = await axios.post(`${URL}/activities`, payload);
+      let info = await axios.post("${URL}/activities", payload);
 
       return dispatch({
         type: ADD_ACTIVITIES,
