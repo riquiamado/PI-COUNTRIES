@@ -14,7 +14,7 @@ import {
   SET_PAGE,
   DELETE_ACTIVITY,
 } from "./componentes";
-const URL = "https://pi-countries-smoky.vercel.app/";
+const URL = "https://pi-countries-smoky.vercel.app";
 // const URL = "http://localhost:3001"
 export function getAllCountries() {
   return function (dispatch) {
