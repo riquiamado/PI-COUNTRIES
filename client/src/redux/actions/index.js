@@ -113,7 +113,7 @@ export function deleteActivity(id) {
 export function addActivities(payload) {
   return async function (dispatch) {
     try {
-      let info = await axios.post("${URL}/activities", payload);
+      let info = await axios.post(`${URL}/activities`, payload);
 
       return dispatch({
         type: ADD_ACTIVITIES,
