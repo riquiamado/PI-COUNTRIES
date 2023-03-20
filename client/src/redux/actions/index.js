@@ -15,8 +15,8 @@ import {
   DELETE_ACTIVITY,
 } from "./componentes";
 
-const URL = `https://pi-countries-production-4c0e.up.railway.app`;
-// const URL = "http://localhost:3001"
+// const URL = `https://pi-countries-production-4c0e.up.railway.app`;
+const URL = "http://localhost:3001";
 
 export function getAllCountries() {
   return function (dispatch) {
