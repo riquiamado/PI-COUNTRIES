@@ -87,7 +87,7 @@ button:hover{
 .container{
   margin: 0 auto;
   padding: 0;
- background-image: url("https://res.cloudinary.com/dwyfwbq1s/image/upload/v1679094036/PI/WhatsApp_Image_2022-11-06_at_13.59.18_tmtldz.jpg");
+ /* background-image: url("https://res.cloudinary.com/dwyfwbq1s/image/upload/v1679094036/PI/WhatsApp_Image_2022-11-06_at_13.59.18_tmtldz.jpg"); */
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
